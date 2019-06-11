@@ -3318,3 +3318,9 @@ input, select, textarea {
       }
 
   }
+
+  .devicon {
+              font-size: 3em;
+              color: #2d90d6;
+              margin: 20px;
+              }
