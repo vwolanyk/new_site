@@ -2857,10 +2857,8 @@ input, select, textarea {
     }
 
       #footer .copyright li {
-        border-left: solid 1px #d4d4d4;
         display: inline-block;
         font-size: 0.8em;
-        margin-left: 1em;
         padding-left: 1em;
       }
 
@@ -3320,7 +3318,29 @@ input, select, textarea {
   }
 
   .devicon {
-              font-size: 3em;
+              font-size: 4em;
               color: #2d90d6;
               margin: 20px;
               }
+
+  #devimg {
+      height: 62px;
+      width: 80px;
+      margin-left: 0;
+      padding-left: 11px;
+    }
+
+
+
+  @media screen and (max-width: 480px) {
+    .devicon {
+                font-size: 2em;
+                color: #2d90d6;
+                margin: 20px;
+                }
+    #devimg{
+      height: 32px;
+      width: 50px;
+    }
+
+  }
