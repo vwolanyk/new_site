@@ -2811,7 +2811,6 @@ input, select, textarea {
             #header > nav ul li a.active {
               background-color: #2d90d6;
               font-weight: bolder;
-              font-size: 1rem;
             }
 
           #header > nav ul li:first-child {
